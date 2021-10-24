@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+#top {
+    height: 50vh;
+    background-color: #dd610ed0;
+    position: relative;
+}
+
+#bottom {
+    height: 50vh;
+    background-color: #f3ece8;
+}
+
+#box {
+    width: 12em;
+    height: 12em;
+    position: absolute;
+    bottom: -6em;
+    left: 50%;
+    transform: translateX(-50%);
+    border-color: rgb(238, 228, 95);
+    background: rgb(238, 228, 95);
+    width: 1100px;
+    border: 15px solid rgb(238, 228, 95);
+    padding: 150px;
+    margin: 40px;
+    border-radius: 0.5%;
+}
+
+#size {
+    width: 12em;
+    height: 12em;
+    position: absolute;
+    bottom: -6em;
+    left: 50%;
+    transform: translateX(-50%);
+    border-color: rgb(238, 228, 95);
+    background: rgb(238, 228, 95);
+    width: 1100px;
+    border: 15px solid rgb(238, 228, 95);
+    padding: 150px;
+    margin: 40px;
+    border-radius: 0.5%;
+}
+
+.head {
+    top: 1px;
+    width: 12em;
+    height: 16em;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    border-color: saddlebrown;
+    background: saddlebrown;
+    width: 1080px;
+    border: 15px solid saddlebrown;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 0.5%;
+}
+
+.head,
+.h1 {
+    color: rgb(221, 221, 135);
+    font-size: large;
+}
+
+.square {
+    top: 12px;
+    border: rgb(248, 248, 197);
+    background: rgb(241, 241, 184);
+    width: 250px;
+    height: 180px;
+    padding: 25px;
+    border-radius: 0.5%;
+    position: absolute;
+    transform: rotate(-30deg);
+    border-radius: 1.5%;
+    text-decoration-color: saddlebrown;
+}
+
+.square,
+.h2 {
+    text-align: center;
+    text-decoration-color: saddlebrown;
+    position: fixed;
+    font-size: 15px;
+}
+
+.leftsidebar {
+    top: 0px;
+    left: 0px;
+    background-color: #dd610ed0;
+    height: 260px;
+    width: 300px;
+    position: absolute;
+}
+
+.inside {
+    top: 50px;
+    right: 10px;
+    background-color: rgb(4, 63, 4);
+    height: 180px;
+    width: 280px;
+    position: absolute;
+    border-radius: 1.5%;
+}
+
+ul .li {
+    list-style-position: inside;
+}
+
+.midlebody {
+    top: 0px;
+    background-color: rgb(4, 63, 4);
+    height: 220px;
+    width: 760px;
+    margin-left: 160px;
+    margin-bottom: -400px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.midlebody,
+.h3 {
+    text-align: center;
+}
